@@ -79,4 +79,6 @@ x0 = IntegerSimplex(A, b, c, d_low, d_high).check_answer()
 print x0.answer
 print np.dot(c, x0.answer)
 
+print("Hello")
+
 
